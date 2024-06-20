@@ -22,7 +22,7 @@ Los comandos más importantes son los siguientes:
 
 El primero crea un entorno virtual en la carpeta ``myproject``, y el segundo activa ese entorno.
 
-Cuando creas un entorno virtual es necesario tomar una decisión sobre si quieres usar los paquetes que están por defecto en tu sistema en ``site-packages``. Es importante notar que por defecto ``virtualenv`` no tiene acceso a ``site-packages``.
+Cuando creas un entorno virtual es necesario tomar una decisión sobre si quieres usar los paquetes que están por defecto en tu sistema en ``site-packages`` o instalarlos en el paquete de del sitio del ``virtualenv``. Es importante notar que por defecto ``virtualenv`` no tiene acceso a ``site-packages``.
 
 Si quieres que tu entorno tenga acceso a los paquetes instalados en tu sistema en ``site-packages`` puedes usar ``--system-site-packages``.
 
